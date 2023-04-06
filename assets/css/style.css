@@ -44,7 +44,7 @@ select{
     color: var(--light-color); 
 }
 
-.hero{  
+.hero{ 
     width: 100%;
 }
 .banner{
@@ -86,23 +86,22 @@ select{
     margin-top: 2rem;
     font-family: var(--secundary-font);
 }
-.coleccion{
-    width: 100%;
-    margin-bottom: 3vh;       
+#coleccion{       
+    margin-right: 7vw;
+    margin-left: 7vw;       
 }
 .column-coleccion{
     width: 100%;    
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
 }
 .row-coleccion{
+    width: 100%;
     height: 30rem;    
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 7vw;
-    margin-right: 7vw;
+    align-items: center;    
 }
 .descrip-coleccion{
     display: flex;
@@ -115,9 +114,7 @@ select{
     width: 100%;
     opacity: 100%;
     border: 2px solid #FF3333 !important;    
-    height: 0px;
-    left: 110px;
-    top: 949.5px;
+    height: 0px;    
     margin: 2% 0 0 0;
 }
 .descrip-coleccion h1{
@@ -143,6 +140,27 @@ select{
     border-radius: 2rem;
     border: none;
     margin-top: 2rem;
+}
+.lanzamientos{
+    margin-right: 7vw;
+    margin-left: 7vw;
+    margin-bottom: 3vh;
+}
+.column-lanzamientos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.column-lanzamientos .titulo-lanzamientos{
+    align-self: flex-start;
+}
+.row-lanzamientos{
+    width: 100%;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;   
 }
 .column-footer{
     background-color: var(--dark-color);
