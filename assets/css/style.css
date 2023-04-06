@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primario-font: 'inter', sans-serif;
+    --secundario-font: 'Raleway', sans-serif;
+    --dark-color: #30343F;
+    --light-color: #F5F5F5;
+}
+nav{
+    width: 100%;
+    height: 14vh;
+    background-color: #30343F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.logo{
+    padding-left: 7vw;
+    width: 18rem;
+    height: auto;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 7vw;
+    list-style: none;
+    color: var(--light-color);  
+}
+nav ul li img {
+    width: 2vw;
+    height: auto;
+}
+select{
+    background-color: transparent;
+    border: none;
+    color: var(--light-color); 
+}
+
+.hero{  
+    width: 100%;
+}
+.banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.banner-principal{   
+    position: absolute;
+    color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    height: 100%;
+    margin-left: 7vw;       
+}
+.hero picture{
+    width: 100%;
+    height: auto;    
+}
+.hero picture img{
+    width: 100%;
+    height: auto;    
+}
+.hero h2{
+    font-weight: bold;
+}
+.hero p{    
+    font-weight: 100;
+}
+.btn-shop{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: none;
+    margin-top: 2rem;
+}
+.coleccion{
+    width: 100%;       
+}
+.column-coleccion{
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row-coleccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+.descrip-coleccion{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    height: 37rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.descrip-coleccion h1{
+    font-family: var(--secundario-font);
+    font-size: xx-large;
+    font-weight: 500;
+    line-height: 54px;
+    color: var(--dark-color);
+    width: 441px;
+}
+.img-coleccion{
+    width: 70%;
+}
+.img-coleccion img{
+    width: 100%;
+    height: auto;
+}
+.btn-coleccion{
+    background-color: #30343F;
+    color: #F5F5F5;
+    width: 11rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: none;
+    margin-top: 2rem;
+}
