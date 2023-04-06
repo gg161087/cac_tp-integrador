@@ -1,20 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap');
+
 :root{
-    --primario-font: 'inter', sans-serif;
-    --secundario-font: 'Raleway', sans-serif;
+    --primary-font: 'Raleway', sans-serif;
+    --secundary-font: 'inter', sans-serif;
     --dark-color: #30343F;
     --light-color: #F5F5F5;
 }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--primario-font);
+}
+
 nav{
     width: 100%;
     height: 14vh;
     background-color: #30343F;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
+    font-family: var(--primary-font); 
 }
 .logo{
     padding-left: 7vw;
@@ -79,6 +84,7 @@ select{
     border-radius: 2rem;
     border: none;
     margin-top: 2rem;
+    font-family: var(--secundary-font);
 }
 .coleccion{
     width: 100%;       
@@ -90,6 +96,7 @@ select{
     justify-content: center;
 }
 .row-coleccion{
+    height: 30rem;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,13 +106,15 @@ select{
 .descrip-coleccion{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 100%;
-    height: 37rem;
+    width: 50%;
     align-items: flex-start;
     justify-content: center;
 }
-
+.descrip-coleccion hr{
+    border: none;    
+    height: 0px;  
+    border-top: 10px solid #FF3333 !important;
+}
 .descrip-coleccion h1{
     font-family: var(--secundario-font);
     font-size: xx-large;
@@ -115,11 +124,11 @@ select{
     width: 441px;
 }
 .img-coleccion{
-    width: 70%;
+    width: 50%;
 }
 .img-coleccion img{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
 }
 .btn-coleccion{
     background-color: #30343F;
@@ -129,4 +138,41 @@ select{
     border-radius: 2rem;
     border: none;
     margin-top: 2rem;
+}
+.column-footer{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+.row1-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 14vh;
+}
+
+.menu-footer ul{    
+    gap: 2rem;
+    padding-right: 7vw;
+    list-style: none;     
+}
+.menu-footer ul li a{
+    color: var(--light-color);
+    text-decoration: none;    
+}
+.logo-footer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.logo-footer img{
+    margin-top: 4vh;
+    height: 60%;
+    width: auto;
+}
+.row2-footer{
+    display: flex;
+    justify-content: center;
 }
