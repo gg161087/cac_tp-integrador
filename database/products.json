@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "serie" : "STAR WARS",
+        "nombre": "STORMTROOPER LIGHTSABER",
+        "imagen": "./assets/images/svg/troper-11.svg",
+        "precio": "$1799,99.-",
+        "cuotas": "3 CUOTAS SIN INTERÉS",
+        "stock": 999
+    },
+    {
+        "id": 2,
+        "serie" : "POKEMON",
+        "nombre": "PIDGEOTTO",
+        "imagen": "./assets/images/svg/pidgeotto-11.svg",
+        "precio": "$1799,99.-",
+        "cuotas": "3 CUOTAS SIN INTERÉS",
+        "stock": 999
+    },
+    {
+        "id": 3,
+        "serie" : "HARRY POTTER",
+        "nombre": "LUNA LOVEGOOD LION MASK",
+        "imagen": "./assets/images/svg/luna-11.svg",
+        "precio": "$1799,99.-",
+        "cuotas": "3 CUOTAS SIN INTERÉS",
+        "stock": 999
+    }
+]
