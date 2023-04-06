@@ -87,7 +87,8 @@ select{
     font-family: var(--secundary-font);
 }
 .coleccion{
-    width: 100%;       
+    width: 100%;
+    margin-bottom: 3vh;       
 }
 .column-coleccion{
     width: 100%;    
@@ -110,10 +111,14 @@ select{
     align-items: flex-start;
     justify-content: center;
 }
-.descrip-coleccion hr{
-    border: none;    
-    height: 0px;  
-    border-top: 10px solid #FF3333 !important;
+.descrip-coleccion hr{          
+    width: 100%;
+    opacity: 100%;
+    border: 2px solid #FF3333 !important;    
+    height: 0px;
+    left: 110px;
+    top: 949.5px;
+    margin: 2% 0 0 0;
 }
 .descrip-coleccion h1{
     font-family: var(--secundario-font);
